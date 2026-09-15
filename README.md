@@ -85,5 +85,5 @@ This repository documents an end-to-end host-based SIEM engineering, compliance 
 * Authored custom XML detection rules for SQL Injection (`100003`), Cross-Site Scripting (`100004`), and schema destruction (`100005`).
 
 ### [07. Automated Active Response & Threat Intelligence](./07-Active-Response-and-Threat-Mitigation)
-* Built an automated containment pipeline executing `firewall-drop` via iptables to temporarily drop attacking IPs for 300 seconds[cite: 2].
-* Integrated the VirusTotal API to automate reputation lookups on newly detected binary drops[cite: 2].
+* Built an automated containment pipeline executing `firewall-drop` via iptables to temporarily drop attacking IPs for 300 seconds.
+* Integrated the VirusTotal API to automate reputation lookups on newly detected binary drops.
