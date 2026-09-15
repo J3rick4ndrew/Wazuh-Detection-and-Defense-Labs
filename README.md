@@ -1,7 +1,7 @@
 # Enterprise Wazuh SIEM Detection, Compliance & Active Defense Labs
 
 ## Executive Summary
-This repository documents an end-to-end host-based SIEM engineering, compliance auditing, and active threat mitigation lab deployed using Wazuh[cite: 2]. Spanning hybrid Windows Server and Ubuntu Linux endpoints, the lab covers baseline telemetry collection, KQL threat hunting, kernel-level File Integrity Monitoring (FIM), CIS benchmark hardening, CVE vulnerability management, custom rule/decoder engineering, automated Active Response containment, and VirusTotal threat intelligence integration.
+This repository documents an end-to-end host-based SIEM engineering, compliance auditing, and active threat mitigation lab deployed using Wazuh. Spanning hybrid Windows Server and Ubuntu Linux endpoints, the lab covers baseline telemetry collection, KQL threat hunting, kernel-level File Integrity Monitoring (FIM), CIS benchmark hardening, CVE vulnerability management, custom rule/decoder engineering, automated Active Response containment, and VirusTotal threat intelligence integration.
 
 ---
 
