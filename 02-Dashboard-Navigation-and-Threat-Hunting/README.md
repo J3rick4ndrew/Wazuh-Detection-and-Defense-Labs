@@ -12,9 +12,9 @@ Every event ingested by Wazuh is parsed into structured fields:
 |---|---|---|
 | `agent.name` / `agent.id` | Source endpoint asset identifier | `WIN-VRLOUIST` / `001` |
 | `rule.id` | Wazuh signature identification | `60122` (Logon Success), `100003` (SQLi) |
-| `rule.level` | Threat severity scale (0–15)[cite: 2] | `3` (Low), `10` (High), `12+` (Critical) |
-| `data.win.system.eventID` | Windows Security Event ID[cite: 2] | `4625` (Failed Logon), `4624` (Success)|
-| `data.win.eventdata.targetUserName` | Targeted identity / account[cite: 2] | `Administrator`|
+| `rule.level` | Threat severity scale (0–15) | `3` (Low), `10` (High), `12+` (Critical) |
+| `data.win.system.eventID` | Windows Security Event ID | `4625` (Failed Logon), `4624` (Success)|
+| `data.win.eventdata.targetUserName` | Targeted identity / account | `Administrator`|
 
 ---
 
